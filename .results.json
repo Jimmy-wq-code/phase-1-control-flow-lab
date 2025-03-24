@@ -2,12 +2,12 @@
   "stats": {
     "suites": 4,
     "tests": 9,
-    "passes": 8,
+    "passes": 9,
     "pending": 0,
-    "failures": 1,
-    "start": "2025-03-23T16:59:12.583Z",
-    "end": "2025-03-23T16:59:13.299Z",
-    "duration": 716
+    "failures": 0,
+    "start": "2025-03-24T10:41:28.695Z",
+    "end": "2025-03-24T10:41:30.884Z",
+    "duration": 2189
   },
   "tests": [
     {
@@ -34,28 +34,23 @@
     {
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns \"Ok, sounds good.\" when the city is NYC",
       "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "should return \"No go.\" if the destination city is not NYC",
       "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
-      "duration": 3,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'No go.'",
-        "showDiff": true,
-        "expected": "No go.",
-        "stack": "AssertionError: expected undefined to equal 'No go.'\n    at Context.<anonymous> (test/indexTest.js:28:49)\n    at process.processImmediate (node:internal/timers:491:21)"
-      }
+      "err": {}
     },
     {
       "title": "should return \"Thank you so much.\" if the tip is generous",
@@ -67,7 +62,7 @@
     {
       "title": "should return \"Thank you.\" if the tip is not as generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -80,20 +75,7 @@
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "should return \"No go.\" if the destination city is not NYC",
-      "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
-      "duration": 3,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'No go.'",
-        "showDiff": true,
-        "expected": "No go.",
-        "stack": "AssertionError: expected undefined to equal 'No go.'\n    at Context.<anonymous> (test/indexTest.js:28:49)\n    at process.processImmediate (node:internal/timers:491:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
@@ -119,14 +101,21 @@
     {
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns \"Ok, sounds good.\" when the city is NYC",
       "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
-      "duration": 1,
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return \"No go.\" if the destination city is not NYC",
+      "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -140,7 +129,7 @@
     {
       "title": "should return \"Thank you.\" if the tip is not as generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
